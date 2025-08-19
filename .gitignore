@@ -1,0 +1,18 @@
+# 忽略所有 YAML 文件
+*.yaml
+*.yml
+
+# 但不忽略特定的 YAML 文件（如果有需要）
+# !important-config.yaml
+
+# 忽略特定目录中的 YAML 文件
+# config/**/*.yaml
+# config/**/*.yml
+
+# 忽略 conda 文件夹
+.conda/
+**/.conda/
+
+# 忽略 txt 文件
+*.txt
+input.txt
